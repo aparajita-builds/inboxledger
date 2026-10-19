@@ -1,0 +1,110 @@
+===== Send to the WIFE inbox  |  attach: wife-1-amazon.pdf =====
+Subject: SAMPLE - Your Amazon.com order #112-4839201-5582213
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Amazon
+Order #112-4839201-5582213
+Order date: 2026-10-03
+
+Items:
+USB-C Charging Cable 2-Pack  Qty 1  $12.99
+Wireless Earbuds  Qty 1  $39.99
+AA Batteries 24-Pack  Qty 1  $15.49
+
+Subtotal: $68.47
+Tax: $4.10
+Order Total: $72.57
+
+
+===== Send to the WIFE inbox  |  attach: wife-2-target.pdf =====
+Subject: SAMPLE - Target order #902341776 confirmation
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Target
+Order #902341776
+Order date: 2026-10-06
+
+Items:
+Bath Towel Set  Qty 1  $24.00
+Ceramic Table Lamp  Qty 1  $29.99
+Throw Pillow  Qty 2  $30.00
+
+Subtotal: $83.99
+Tax: $5.12
+Order Total: $89.11
+
+
+===== Send to the WIFE inbox  |  attach: wife-3-walmart.pdf =====
+Subject: SAMPLE - Walmart order #2000118-44572 is confirmed
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Walmart
+Order #2000118-44572
+Order date: 2026-10-09
+
+Items:
+Shampoo 2-Pack  Qty 1  $9.97
+Vitamin D3 Gummies  Qty 1  $12.48
+Sunscreen SPF 50  Qty 1  $8.94
+
+Subtotal: $31.39
+Tax: $1.98
+Order Total: $33.37
+
+
+===== Send to the HUSBAND inbox  |  attach: husband-1-walmart.pdf =====
+Subject: SAMPLE - Walmart order #2000118-51903 is confirmed
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Walmart
+Order #2000118-51903
+Order date: 2026-10-02
+
+Items:
+Whole Milk 1 Gallon  Qty 2  $6.96
+Bread Loaf  Qty 1  $2.98
+Large Eggs 18 ct  Qty 1  $4.62
+Ground Coffee 30 oz  Qty 1  $11.97
+Bananas 3 lb  Qty 1  $1.74
+
+Subtotal: $28.27
+Tax: $0.00
+Order Total: $28.27
+
+
+===== Send to the HUSBAND inbox  |  attach: husband-2-amazon.pdf =====
+Subject: SAMPLE - Your Amazon.com order #113-7720154-9034418
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Amazon
+Order #113-7720154-9034418
+Order date: 2026-10-07
+
+Items:
+Wireless Mouse  Qty 1  $24.99
+Mechanical Keyboard  Qty 1  $59.99
+HDMI Cable 6 ft  Qty 1  $8.99
+
+Subtotal: $93.97
+Tax: $5.92
+Order Total: $99.89
+
+
+===== Send to the HUSBAND inbox  |  attach: husband-3-target.pdf =====
+Subject: SAMPLE - Target order #902355018 confirmation
+
+SAMPLE ORDER CONFIRMATION - TEST DATA FOR A CLASS PROJECT, NOT A REAL ORDER
+Target
+Order #902355018
+Order date: 2026-10-11
+
+Items:
+Hoodie Gray Medium  Qty 1  $30.00
+Crew Socks 6-Pack  Qty 1  $14.00
+Running Shoes  Qty 1  $64.99
+
+Subtotal: $108.99
+Tax: $6.54
+Order Total: $115.53
+
+

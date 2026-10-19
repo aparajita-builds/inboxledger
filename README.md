@@ -51,3 +51,6 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
    `az vm run-command invoke -g <rg> -n <vm> --command-id RunShellScript --scripts @infra/setup.sh`
 
 The Azure resources were deleted after the project was finished.
+
+
+I used Claude (Anthropic) as a learning aid for step-by-step guidance and troubleshooting; all Azure resources were deployed, configured and tested by me.

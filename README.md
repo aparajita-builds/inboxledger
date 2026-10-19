@@ -52,5 +52,6 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
 
 The Azure resources were deleted after the project was finished.
 
+## Acknowledgements:
 
 I used Claude (Anthropic) as a learning aid for step-by-step guidance and troubleshooting; all Azure resources were deployed, configured and tested by me.

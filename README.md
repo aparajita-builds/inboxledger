@@ -1,4 +1,4 @@
-# InboxLedger
+# InboxLedger:
 
 A shared purchase tracker for couples, built on Microsoft Azure for MSIT Cloud Computing (Fall 2026).
 
@@ -6,7 +6,7 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
 
 ![Architecture](docs/architecture.png)
 
-## How it works
+## How it works:
 
 1. A store emails an order confirmation to the wife's or the husband's Outlook.com inbox.
 2. A Logic App (`la-wife-ingest` / `la-husband-ingest`) starts on each new email whose subject contains "order".
@@ -15,7 +15,7 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
 5. The Flask app (Gunicorn behind Nginx) reads every setting from Key Vault using the VM's managed identity. It stores receipts in Blob and reads PDFs with Document Intelligence, then saves the purchase in Azure SQL Database.
 6. If a person goes over their monthly budget, Communication Services sends one alert email for that month.
 
-## Azure services used
+## Azure services used:
 
 | Area | Service |
 |---|---|
@@ -26,7 +26,7 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
 | Integration / AI | Logic Apps, Document Intelligence (prebuilt-receipt), Communication Services (email) |
 | Operations | Azure Monitor alerts + action group, VM insights, Azure Backup (restore tested), Cost Management budget |
 
-## Repository contents
+## Repository contents:
 
 | Path | What it is |
 |---|---|
@@ -36,13 +36,13 @@ InboxLedger reads order-confirmation emails sent to two Outlook.com inboxes, one
 | `samples/receipts/` | Sample PDF receipts used to test Document Intelligence |
 | `docs/` | Architecture diagrams |
 
-## Security notes
+## Security notes:
 
 - **No secrets are stored in this repository.** The VMs know only the Key Vault name; every password and key is read from Key Vault at runtime.
 - The ingest API key was removed from `template.json`, and the subscription ID was replaced with zeros.
 - The VMs have no public IPs. Admin access goes through Azure Bastion only.
 
-## Deploying it again
+## Deploying it again:
 
 1. Create the resources shown in the diagram, or start from `infra/template.json` after adding your own parameter values.
 2. Add the required secrets to the Key Vault: `sql-server`, `sql-database`, `sql-user`, `sql-password`, `storage-account`, `ingest-api-key`, `dashboard-password`, `docintel-endpoint`, `docintel-key`, `acs-connection-string`, `acs-sender`, `alert-emails`.

@@ -1,4 +1,4 @@
-# InboxLedger:
+# InboxLedger
 
 A shared purchase tracker for couples, built on Microsoft Azure for MSIT Cloud Computing (Fall 2026).
 
